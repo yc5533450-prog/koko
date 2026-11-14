@@ -12,4 +12,4 @@ rustup target add wasm32-unknown-unknown
 fi
 echo '[3/3] Web uygulamasi bagimliliklari kuruluyor'
 cd chimera-vocal-synth
-bun install --frozen-lockfile
+bunx bun@1.4.4 install --frozen-lockfile
