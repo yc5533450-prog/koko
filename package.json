@@ -1,0 +1,9 @@
+{
+  "name": "chimera-tr-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Upstream CHIMERA plus Turkish speech and lyrics front end",
+  "scripts": {
+    "build": "bash scripts/build.sh"
+  }
+}
