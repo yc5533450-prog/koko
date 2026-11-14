@@ -11,6 +11,6 @@ python3 turkce_yama.py "$HERE/chimera-vocal-synth"
 echo 'Gercek CHIMERA Rust/WebAssembly + Vite web sitesi derleniyor...'
 export PATH="$HOME/.cargo/bin:$PATH"
 cd "$HERE/chimera-vocal-synth"
-bun run build
+bunx bun@1.4.4 run build
 test -f dist/index.html
 echo "Hazir: $HERE/chimera-vocal-synth/dist"
